@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.maindiv {
+  background-color: #f0f4f9;
+  border-bottom: 1px solid white;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menuitems {
+  margin: 0 50px 0 0;
+  cursor: pointer;
+}
+
+.signup {
+  width: 100px;
+  padding: 12px;
+  border: none;
+  background-color: #fdc800;
+  margin-right: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.search {
+  padding: 9px;
+  background-color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 3px;
+}
+/* section1  */
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 30px 0;
+}
+.introsec {
+  margin-top: 50px;
+}
+.imagespart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagespart > img {
+  height: 350px;
+}
+.introsec > h3 {
+  font-size: 10px;
+}
+.introsec > h1 {
+  font-size: 35px;
+  margin: 20px 0 0 0;
+}
+.quote {
+  width: 130px;
+  padding: 12px;
+  border: 1px solid grey;
+  background-color: #fdc800;
+  margin-right: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.readmore {
+  width: 130px;
+  padding: 12px;
+  border: 1px solid grey;
+  background-color: white;
+  margin-right: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.introsec > h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+/* section2  */
+.section2 {
+  padding: 50px 0;
+}
+.contents-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.commonclass {
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.image1 {
+  width: 100%;
+}
+
+.section2 > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.imagesection {
+  position: relative;
+}
+.imagesection > .image2 {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+}
+.infosection {
+  padding: 20px;
+}
+/* section3  */
+.section3 {
+  background-color: #f0f4f9;
+  padding: 50px 0 50px 0;
+}
+.herosection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftsection > p {
+  color: #fdc800;
+}
+.leftsection > h1 {
+  color: #002147;
+  font-size: 40px;
+}
+.rightsection {
+  background-color: #fff;
+  height: 32px;
+  padding: 3px;
+  border-radius: 5px;
+}
+.monthbtn {
+  padding: 8px 15px 8px 15px;
+  border: none;
+  background-color: #00b2b2;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.yearbtn {
+  padding: 8px 15px 8px 15px;
+  border: none;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-top: 50px;
+}
+
+.leftcard,
+.middlecard,
+.rightcard {
+  background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.startbtn {
+  position: relative;
+  left: 120px;
+  padding: 7px;
+  width: 30%;
+  border: none;
+  background-color: #0053a7;
+  color: #fff;
+  cursor: pointer;
+}
+.topsection {
+  padding: 0 20px 0 30px;
+  border-bottom: 1px solid grey;
+}
+
+.lowersection {
+  padding: 30px;
+}
+.lowersection > .firstone > .para > p {
+  margin-bottom: 10px;
+}
+.lowersection > button {
+  padding: 15px 0;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  background-color: #002147;
+  color: #fff;
+  cursor: pointer;
+}
+.firstone {
+  display: flex;
+  align-items: center;
+}
+.para {
+  margin-left: 10px;
+}
+/* card 2 */
+
+.startbtn2 {
+  position: relative;
+  left: 120px;
+  padding: 7px;
+  width: 30%;
+  border: none;
+  background-color: #002147;
+  color: #fff;
+  cursor: pointer;
+}
+.topsection {
+  padding: 0 20px 0 30px;
+  border-bottom: 1px solid grey;
+}
+.topsection > h1 {
+  margin-top: 30px;
+}
+.topsection > p {
+  margin-bottom: 15px;
+}
+.lowersection2 {
+  padding: 30px;
+}
+.lowersection2 > .firstone > .para > p {
+  margin-bottom: 10px;
+}
+.lowersection2 > button {
+  padding: 15px 0;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  background-color: #fdc800;
+  color: #fff;
+  cursor: pointer;
+}
+.firstone {
+  display: flex;
+  align-items: center;
+}
+.para {
+  margin-left: 10px;
+}
+/* card3  */
+.startbtn3 {
+  position: relative;
+  left: 120px;
+  padding: 7px;
+  width: 30%;
+  border: none;
+  background-color: #002147;
+  color: #fff;
+  cursor: pointer;
+}
+.topsection {
+  padding: 0 20px 0 30px;
+  border-bottom: 1px solid grey;
+}
+.topsection > h1 {
+  margin-top: 30px;
+}
+.topsection > p {
+  margin-bottom: 15px;
+}
+.lowersection3 {
+  padding: 30px;
+}
+.lowersection3 > .firstone > .para > p {
+  margin-bottom: 10px;
+}
+.lowersection3 > button {
+  padding: 15px 0;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  background-color: #002147;
+  color: #fff;
+  cursor: pointer;
+}
+.firstone {
+  display: flex;
+  align-items: center;
+}
+.para {
+  margin-left: 10px;
+}
